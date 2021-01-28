@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Craft Knowlege</title>
+</head>
+
+<body>
+    <!--navigation-->
+    <nav class=" font-mono flex items-center justify-between flex-wrap bg-white p-6">
+        <div class="flex items-center flex-shrink-0 text-gray-800 mr-6">
+            <img src="img/crLogo.jpg" alt="Logo" class="w-1/5 mx-1">
+            <span class="font-semibold text-xl tracking-tight">Craft Knowlege</span>
+        </div>
+        <div class="block lg:hidden">
+            <button
+                class="flex items-center px-3 py-2 border rounded text-indigo-400 border-indigo-400 hover:text-indigo-700 hover:border-indigo-400">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20">
+                    <title>Menu</title>
+                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                </svg>
+            </button>
+        </div>
+        <div class="w-full block justify-evenly flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-base w-auto justify-between">
+                <a href="index.html"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-green-800 font-bold mr-8">
+                    Home
+                </a>
+                <a href="index.html#courses"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-green-800  font-bold mr-8">
+                    Courses
+                </a>
+                <a href="index.html#about"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-green-800  font-bold mr-8">
+                   About
+                </a>
+                <!-- <a href="index.html#onsite-training"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-craftindigo-400 font-bold mr-8">
+                    Onsite Training
+                </a> -->
+                <a href="index.html#contact"
+                    class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-green-800  font-bold">
+                    Contact us
+                </a>
+            </div>
+            <!-- <div>
+                <a href="#"
+                    class="inline-block text-sm px-4 py-2 leading-none border-transparent rounded text-indigo-400 hover:border-indigo-400 hover:text-indigo-500 hover:bg-white mt-4 lg:mt-0 font-bold">Login</a>
+                <a href="#"
+                    class="inline-block text-sm px-4 py-2 leading-none border rounded text-indigo-400 bg-indigo-100 border-indigo-400 hover:border-transparent hover:text-white hover:bg-indigo-500 mt-4 lg:mt-0 font-bold">Register</a>
+            </div> -->
+        </div>
+    </nav>
+    <!--banner-->
+    <section class="w-full h-64 min-h-64 bg-no-repeat bg-cover lg:bg-center relative bg-top-right lg:p-64 p-24"
+        style="background-image:url('./img/crbg.jpg');"
+        >
+        <form class="w-full max-w-sm">
+            <!-- <div class="flex items-center ">
+                <input
+                    class="appearance-none bg-white rounded border-none w-full text-gray-700 mr-3 py-32 px-16 leading-tight focus:outline-none"
+                    type="text" placeholder="Search for Courses..." aria-label="Search">
+                <button
+                    class="flex-shrink-0 font-bold bg-indigo-500 hover:bg-indigo-600 border-indigo-500 hover:border-indigo-600 text-sm border-4 text-white py-1 px-2 rounded"
+                    type="button">
+                    Search Courses
+                </button>
+            </div> -->
+        </form>
+    </section>
+    <!--courses-->
+    <section id="courses" class="flex md:flex-row lg:flex-row xl:flex-row flex-col my-0 px-8 mr-0 m-6">
+        <div class="md:w-1/2 px-2 py-3 bg-center bg-no-repeat lg:w-1/2 xl:w-1/2 mt-16 pr-8 p-6">
+            <p class="text-gray-700 font-extrabold pb-4 text-3xl font-mono">Learn New Skills with us </p>
+            <div class="px-4 py-6 font-mono">
+                <p>Craft Software specialized in training candidates with excellent
+                 experience in integration products such as MuleSoft, IBM, APG, SalesForce, java and Database</p>
+                <div class="flex mb-4">
+                    <div class="w-full">
+                        <img src="img/undraw_Code_typing_re_p8b9.svg" class="py-8 lg:w-2/3 xl:pt-16 xl:w-2/3 mx-auto" alt="">
+                    </div>
+                </div>
+                <div
+                    class="hidden lg:hidden md:block  max-w-sm  rounded transition duration-700 ease-in-out  hover:bg-indigo-500 hover:text-white transform hover:-translate-y-1 hover:scale-110 bg-white overflow-hidden shadow-lg">
+                    <a href="#">
+                        <img class="w-20  ml-8 mb-6 mt-6" src="img/icons8-javascript-48.png" alt="Course Banner">
+                        <div class="hover:text-white px-6 py-2 mb-2">
+                            <div class="font-bold text-xl mb-2">Javascript Basicddds</div>
+                            <p class="">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="flex pt-8 justify-center w-full p-2">
+                    <a href="courses.html"
+                        class="hidden md:block lg:hidden items-center place-self-center font-mono py-2 border rounded-full bg-indigo-100 border-opacity-75 text-indigo-400 border-indigo-400 hover:border-transparent hover:text-white hover:bg-indigo-500 px-6 uppercase text-sm tracking-wide ">Browse
+                        All</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-full flex-1 bg-no-repeat bg-right-bottom md:mt-20 mt-10 lg:mt-10 lg:p-2 md:p-2 p-6"
+            style="background-image: url('img/circles.png');">
+            <div
+                class=" grid lg:gap-0 lg:grid-cols-2 md:grid-cols-1 xl:grid-cols-2 sm:grid-cols-1 sm:mt-2 md:mt-4 lg:pt-10 lg:mt-16">
+                <div
+                    class="max-w-sm lg:m-4 md:m-8 my-2  rounded transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-white overflow-hidden shadow-lg">
+                    <a href="#">
+                        <img class="w-20  ml-8 mb-6 mt-6" src="img/db.png" alt="Course Banner">
+                        <div class="hover:text-black px-6 py-2 mb-2">
+                            <div class="font-bold text-xl mb-2">Database</div>
+                            <p class="">
+                                Basic of database and sql syntax.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="max-w-sm lg:m-4 md:m-8 my-2  rounded transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-white overflow-hidden shadow-lg">
+                    <a href="#">
+                        <img class="w-20  ml-8 mb-6 mt-6" src="img/m.jpg" alt="Course Banner">
+                        <div class="px-6 py-2 mb-2">
+                            <div class="font-bold text-xl mb-2">MuleSoft</div>
+                            <p class="">
+                               
+                                Runtime engine for Anypoint Platform and Mule ESB.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="max-w-sm lg:m-4 md:m-8 my-2  rounded transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-white overflow-hidden shadow-lg">
+                    <a href="#">
+                        <img class="w-20  ml-8 mb-6 mt-6" src="img/icons8-java-64.png" alt="Course Banner">
+                        <div class=" px-6 py-2 mb-2">
+                            <div class="font-bold text-xl mb-2">Java</div>
+                            <p class="">
+                                Java basics and object oriented programming with Java.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class="md:hidden lg:block max-w-sm lg:m-4 md:m-8  rounded transition duration-700 ease-in-out transform hover:-translate-y-1 hover:scale-110 bg-white overflow-hidden shadow-lg">
+                    <a href="#">
+                        <img class="w-20  ml-8 mb-6 mt-6" src="img/sls.jpg" alt="Course Banner">
+                        <div class="px-6 py-2 mb-2">
+                            <div class="font-bold text-xl mb-2">SalesForce</div>
+                            <p class="">
+                               Introduction to cloud computing service (saas) and customer relationship management (CRM).
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="flex pt-8 justify-center w-full p-2">
+                <a href="courses.html"
+                    class="md:hidden lg:block items-center place-self-center font-mono py-2 border rounded-full bg-yellow-500  border-opacity-75 text-black border-indigo-400 hover:border-transparent hover:text-white hover:bg-yellow-600 px-6 uppercase text-sm tracking-wide ">Browse
+                    All</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Online Classes-->
+    <!-- <section id="online-training" class=" bg-white flex flex-col pb-0 p-10">
+        <div class="px-0 md:px-24 mt-10 mx-auto">
+            <p class="font-semibold text-gray-700 font-mono mb-4 text-4xl">Join Our Online Classes</p>
+            <p class="font-light tracking-wider">World-class learning for anyone, anywhere Lorem ipsum dolor sit, amet
+                consectetur adipisicing elit. Odit non porro iusto, ut
+                incidunt autem veritatis explicabo necessitatibus numquam cumque unde velit sit impedit, ab cupiditate
+                obcaecati est facere officia?</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row xl:flex-row md:px-24">
+            <div class="flex mx-auto w-1/2 flex-col">
+                <div class="pt-24 xl:pl-10 lg:pl-10 ">
+                    <img class="w-2/4 hidden lg:block md:block xl:block md:w-3/4 md:w-px-0 px-2"
+                        src="img/undraw_Work_chat_re_qes4.svg" alt="">
+                </div>
+                <div class="h-full flex justify-end ">
+                    <img class="xl:mb-20 lg:mb-16 lg:w-1/2 xl:w-1/2 md:w-2/3" src="img/undraw_conference_call_b0w6.svg"
+                        alt="">
+                </div>
+            </div>
+
+            <div class="text-gray-700">
+                <div class="container px-5 py-24 mx-auto">
+                    <div
+                        class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                        <div
+                            class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="text-indigo-500 w-12 h-12 mb-3 inline-block"
+                                viewBox="0 0 24 24">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                            </svg>
+                        </div>
+                        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Group Trainings</h2>
+                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar
+                                toast
+                                vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Classrooms</h2>
+                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar
+                                toast
+                                vegan taxidermy. Gastropub indxgo juice poutine.</p>
+
+                        </div>
+                        <div
+                            class="sm:w-32 sm:order-none order-first sm:h-32 h-20 w-20 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                            <svg class="sm:w-16 sm:h-16 w-10 h-10" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex items-center lg:w-3/5 mx-auto sm:flex-row flex-col">
+                        <div
+                            class="sm:w-32 sm:h-32 h-20 w-20 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="sm:w-16 sm:h-16 w-10 h-10" viewBox="0 0 24 24">
+                                <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                <circle cx="12" cy="7" r="4"></circle>
+                            </svg>
+                        </div>
+                        <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                            <h2 class="text-gray-900 text-lg title-font font-medium mb-2">One-On-One Training</h2>
+                            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar
+                                toast
+                                vegan taxidermy. Gastropub indxgo juice poutine.</p>
+
+                        </div>
+                    </div>
+                    <button
+                        class="flex mx-auto mt-16 font-mono py-2 border rounded-full bg-indigo-100 border-opacity-75 text-indigo-400 border-indigo-400 hover:border-transparent hover:text-white hover:bg-indigo-500 px-6 uppercase text-sm tracking-wide">Learn
+                        More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    On Site Training -->
+    <section id="about" class="text-white w-full mt-10 mb-8">
+        <div
+            class=" px-16 py-10 bg-gradient-to-b2 from-indigo-500 via-indigo-700 to-purple-700 container mx-auto rounded-lg">
+            <div class="text-center mb-10">
+                <h1 class="sm:text-3xl text-2xl font-bold title-font text-white mb-4">On-Site Training</h1>
+                <p class="font-mono text-lg leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+                    Craft Knowlege offers a Data Quality Assessment. We also process 
+                    your data through our software to find data anomalies and improvement opportunities. 
+                </p>
+                <div class="flex mt-6 justify-center">
+                    <div class="w-16 h-1 rounded-full bg-indigo-200 inline-flex"></div>
+                </div>
+            </div>
+            <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 mt-4">
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="text-indigo-500 w-10 h-10 inline-block" viewBox="0 0 24 24">
+                            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-white text-2xl title-font font-medium mb-3">One-On-One</h2>
+                        <p class="leading-relaxed text-base">one to one support for candidates with organized learning environment </p>
+                        <!-- <a href="#"
+                            class="mt-3 font-mono hover:text-white hover:font-bold text-indigo-100 inline-flex items-center">Learn
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white text-indigo-500 mb-5 flex-shrink-0">
+                        <svg class="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-white text-2xl title-font font-medium mb-3">Group Class</h2>
+                        <p class="leading-relaxed text-base">online group class with professional teachers  </p>
+                        <!-- <a href="#"
+                            class="mt-3 text-indigo-100 inline-flex items-center  hover:text-white hover:font-bold font-mono">Learn
+                            More
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a> -->
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3 md:mb-0 mb-6 flex flex-col text-center items-center">
+                    <div
+                        class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white text-indigo-500 mb-5 flex-shrink-0">
+                        <svg fill="none" class="w-10 h-10" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="flex-grow">
+                        <h2 class="text-white text-2xl title-font font-medium mb-3">Materials</h2>
+                        <p class="leading-relaxed text-base">We provide materials for every course and assist candidates</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--steps-->
+    <section class="text-gray-700 body-font" id = "contact">
+        <div class="container px-8 py-16 mx-auto flex flex-wrap">
+            <p class="text-3xl pb-4 font-mono font-semibold flex justify-center text-green-800">Contact Details</p>
+            <div class="flex flex-wrap w-full">
+                <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+                    <div class="flex relative pb-12">
+                        <!-- <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div> -->
+                        <!-- <div
+                            class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                            </svg>
+                        </div> -->
+                        <div class="flex-grow pl-4">
+                            <!-- <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">612.860.8340</h2> -->
+                            <p class="leading-relaxed">Craft Software Professionals, LLC
+                                1090 52nd Ave Ne #207
+                                Minneapolis, MN 55421</p>
+                        </div>
+                    </div>
+                    <div class="flex relative pb-12">
+                        <!-- <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                        </div> -->
+                        <div class="flex-grow pl-4">
+                            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Support Services</h2>
+                            <h2 class="font-medium title-font text-sm text-green-800 font-bold  mb-1 tracking-wider ">Hours of Operation</h2>
+                            <p class="leading-relaxed">
+                                Standard Support:
+                                Monday – Friday 8:30am CT to 5:30pm CT</p>
+                        </div>
+                    </div>
+                    <div class="flex relative pb-12">
+                        <!-- <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                            <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                        </div>
+                        <div
+                            class="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-500 inline-flex items-center justify-center text-white relative z-10">
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                                <circle cx="12" cy="5" r="3"></circle>
+                                <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                            </svg>
+                        </div> -->
+                        <div class="flex-grow pl-4">
+                            <h2 class="font-medium title-font text-sm text-gray-900 mb-1 tracking-wider">Telephone</h2>
+                            <p class="leading-relaxed">Telephone support is available to customers at <p class = "text-green-800 font-bold">1-612-860-8340.</p></p>
+                        </div>
+                    </div>
+   
+               
+                </div>
+                <img class="pl-10 w-3/4 md:w-1/2 md:pl-24 object-right rounded-lg md:mt-0 mt-12"
+                    src="img/undraw_contact_us_15o2.svg" alt="step">
+            </div>
+        </div>
+    </section>
+    <!--resourses-->
+    <!-- <section class="font-sans text-center flex justify-center mt-10 py-10 px-4 lg:px-0 bg-indigo-1000">
+        <div class=" flex flex-col sm:flex-row bg-indigo-100 rounded-lg xl:mx-8 lg:mx-8 w-3/4 align-center m-auto shadoww">
+            <div class="w-full sm:w-3/4 px-6 pt-6 text-left flex flex-col ">
+                <h2 class="capitalize text-3xl font-mono text-gray-700 font-semibold">Resources</h2>
+                <p class="text-gray-700 mt-2 mb-6">Explore our resources page and Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. Dolore asperiores officia quam nesciunt iure dolores voluptates. </p>
+            </div>
+            <div class="w-full sm:w-1/4 flex justify-start sm:justify-center items-center pl-6 pb-6 sm:pl-0 sm:pb-0">
+                <button
+                    class="font-mono py-2 border rounded-full bg-white border-opacity-75 text-indigo-400 border-indigo-400 hover:border-transparent hover:text-white hover:bg-indigo-500 px-6 uppercase text-sm tracking-wide">Learn
+                    More</button>
+            </div>
+        </div>
+    </section> -->
+    <!--Team-->
+    <!-- <section class="text-gray-700 body-font">
+        <div class=" px-10 md:px-48 py-10 mx-auto">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h1 class="text-4xl font-semibold font-mono mb-4 text-gray-700 tracking-widest">Our Team</h1>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn
+                    asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.
+                </p>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="https://dummyimage.com/200x200">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-gray-900">J</h2>
+                            <h3 class="text-gray-500 mb-3"> Developer</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facere
+                                commodi possimus error fugiat tempora, aut vel vitae consequatur assumenda..</p>
+                            <span class="inline-flex">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 lg:w-1/2">
+                    <div
+                        class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+                        <img alt="team"
+                            class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                            src="https://dummyimage.com/201x201">
+                        <div class="flex-grow sm:pl-8">
+                            <h2 class="title-font font-medium text-lg text-gray-900">Rebecca</h2>
+                            <h3 class="text-gray-500 mb-3">Designer</h3>
+                            <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil excepturi
+                                esse illum porro incidunt recusandae at delectus.</p>
+                            <span class="inline-flex">
+                                <a class="text-gray-500">
+                                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                                        </path>
+                                    </svg>
+                                </a>
+                                <a class="ml-2 text-gray-500">
+                                    <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        class="w-5 h-5" viewBox="0 0 24 24">
+                                        <path
+                                            d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- <div class="flex justify-center w-full p-8">
+            <img src="img/undraw_our_solution_htvp.svg" class="lg:w-1/2 px-10 md:px-24" alt="">
+        </div> -->
+    <!-- </section> -->
+
+    <!-- user feedback-->
+    <!-- <section class="text-gray-700 body-font">
+        <div class="px-4 md:px-16 lg:px-40 py-16 lg:mx-auto">
+            <h1 class="text-4xl font-semibold title-font text-gray-700 mb-12 font-mono text-center"> Community Feedback
+            </h1>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/2 w-full">
+                    <div class="h-full bg-indigo-100 p-8 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                            carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
+                            post-ironic heirloom try-hard pabst authentic iceland.</p>
+                        <a class="inline-flex items-center">
+                            <img alt="testimonial" src="https://dummyimage.com/106x106"
+                                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                                <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                                <span class="text-gray-500 text-sm">UI DEVELOPER</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/2 w-full">
+                    <div class="h-full bg-indigo-100 p-8 rounded">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                            class="block w-5 h-5 text-gray-400 mb-4" viewBox="0 0 975.036 975.036">
+                            <path
+                                d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z">
+                            </path>
+                        </svg>
+                        <p class="leading-relaxed mb-6">Synth chartreuse iPhone lomo cray raw denim brunch everyday
+                            carry neutra before they sold out fixie 90's microdosing. Tacos pinterest fanny pack venmo,
+                            post-ironic heirloom try-hard pabst authentic iceland.</p>
+                        <a class="inline-flex items-center">
+                            <img alt="testimonial" src="https://dummyimage.com/107x107"
+                                class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+                            <span class="flex-grow flex flex-col pl-4">
+                                <span class="title-font font-medium text-gray-900">Alper Kamu</span>
+                                <span class="text-gray-500 text-sm">DESIGNER</span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    
+  
+ 
+        
+ 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d49604.63605228987!2d-77.05488436918586!3d39.00870331557543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%20Silver%20Spring%2C%20MD%2C%2020910-6346%20%20United%20States!5e0!3m2!1sen!2set!4v1611826914972!5m2!1sen!2set" class = "w-screen" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<footer class="text-white body-font bg-bg-700">
+  <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+      
+      <span class="ml-3 text-xl">Craft Knowlege</span>
+    </a>
+    <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 craft Knowlege 
+      <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank"></a>
+    </p>  
+    <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+      <a class="text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+          <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+        </svg>
+      </a>
+      <a class="ml-3 text-gray-500">
+        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+          <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+          <circle cx="4" cy="4" r="2" stroke="none"></circle>
+        </svg>
+      </a>
+    </span>
+  </div>
+</footer>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</body>
+
+</html>
+<style>
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 30px;
+      z-index: 99;
+      font-size: 18px;
+      border: none;
+      outline: none;
+      background-color: #dca00c;
+      color: white;
+      cursor: pointer;
+      padding: 15px;
+      border-radius: 4px;
+    }
+    
+    #myBtn:hover {
+      background-color: #dca00c;
+    }
+    </style>
+  </style>
+  <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
